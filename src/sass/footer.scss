@@ -1,0 +1,21 @@
+@import 'variables';
+
+footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px;
+
+    .caja1 {
+        @include box(purple, 10px);
+    }
+    .caja2 {
+        @include box(aqua, 10px);
+    }
+    .caja3 {
+        @include box(pink, 10px);
+    }
+    }

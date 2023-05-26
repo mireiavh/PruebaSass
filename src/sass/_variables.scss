@@ -1,0 +1,12 @@
+$backgroundColor: burlywood;
+$titleColor: crimson;
+$TextColorOne: darkorchid;
+$TextColortwo: green;
+
+@mixin box($color, $border){
+    background-color: $color;
+    border-radius: $border;
+    height: 150px;
+    width: 150px;
+
+}
